@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section my-8 sm:grid grid-cols-2 gap-4">
-      <div>
+    <section id="contact" className="section my-8 sm:grid grid-cols-3 gap-2">
+      <div className="col-span-2">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.0462693214527!2d-9.5797981!3d30.406429099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b696ddc99b19%3A0x559600239b0202af!2sAgadir%20Higher%20School%20of%20Technology!5e0!3m2!1sen!2sma!4v1704726510564!5m2!1sen!2sma"
           width="600"

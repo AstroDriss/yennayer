@@ -1,3 +1,4 @@
+import Head from "next/head";
 import StructuredData from "./components/StructuredData";
 import "./globals.css";
 
@@ -12,6 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className="scroll-smooth scroll-pt-14" lang="en">
+      <Head>
+        <meta property="og:title" content="Yennayer Event in ESTA" />
+        <meta
+          property="og:description"
+          content="dont miss this free event to get familiar with Amazigh traditions"
+        />
+        <meta
+          property="og:image"
+          content="https://sudestmaroc.com/wp-content/uploads/2020/11/Ahwach-tete-page-1024x427.jpg"
+        />
+      </Head>
       <StructuredData
         data={`{
           "@context": "http://schema.org",

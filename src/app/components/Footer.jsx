@@ -5,6 +5,7 @@ const Footer = () => {
     <footer className="bg-white text-slate-800 border-t-2 border-gray-400">
       <div className="section p-3">
         <Image
+          className="mx-auto"
           src="/images/images__1_-removebg-preview.png"
           width={300}
           height={80}

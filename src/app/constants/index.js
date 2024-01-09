@@ -24,7 +24,8 @@ export const eventInfo = {
     datetime: '2024-01-13T19:00'
 }
 
-export const about = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem voluptas aliquam dolor dolores sunt voluptates, ipsa harum magnam beatae consequatur nesciunt ut consequuntur eaque sint dolorem, culpa sed incidunt alias?`
+export const about = `
+Get ready to immerse yourself in the vibrant celebration of Yennayer, the Amazigh New Year, at our upcoming event in Morocco at EST Agadir school! Join us for a night filled with the rich tapestry of Amazigh culture, featuring traditional cuisine that will tantalize your taste buds with authentic flavors. Indulge in a feast of tagines, couscous, and delectable pastries that showcase the culinary prowess of the Amazigh people. As the beats of traditional music fill the air, be prepared to lose yourself in the rhythmic allure of Amazigh dance, where every movement tells a story of centuries-old traditions. The atmosphere will be alive with joy and festivity, making this Yennayer celebration an unforgettable experience. Don't miss the chance to revel in the spirit of the Amazigh New Year, surrounded by the warmth of community and the enchantment of Moroccan traditions!`
 
 export const shows = [
     {

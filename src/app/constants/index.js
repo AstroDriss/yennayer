@@ -54,7 +54,7 @@ export const participants = [
     },
     {
         id: '2',
-        name: "Pr. Khalid Hidane",
+        name: "Pr. Khalil Hidane",
         role: "The responsable of the event"
     },
     {

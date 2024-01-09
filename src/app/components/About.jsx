@@ -1,10 +1,23 @@
+import Image from "next/image";
+
 import { about, shows } from "../constants";
 
 const About = () => {
   return (
-    <section id="about" className="section mt-8">
-      <h2 className="mb-3">About the Event</h2>
-      <p>{about}</p>
+    <section id="about" className="section mt-10">
+      <div className="grid md:grid-cols-2 gap-2 items-center">
+        <div>
+          <h2 className="mb-3">About the Event</h2>
+          <p className="text-pretty text-gray-800">{about}</p>
+        </div>
+
+        <Image
+          className="w-full"
+          src="/images/yennayer.webp"
+          width={500}
+          height={90}
+        />
+      </div>
 
       <h2 className="mb-3 mt-8">What are you going to miss</h2>
       <ul>
